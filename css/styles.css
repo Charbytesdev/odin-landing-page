@@ -1,5 +1,4 @@
 /* Add body styling*/
-
 body {
   margin: 0;
   display: flex;
@@ -131,7 +130,31 @@ body {
   height: 150px;
 }
 
-.quotes {
+.quote-container {
+  background-color: #e5e7eb;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  color: #1f2937;
+  width: 800px;
+  margin: 120px 0px;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote .author {
+  font-size: 30px;
+  font-weight: bold;
+  align-self: flex-end;
 }
