@@ -1,6 +1,6 @@
 # odin-landing-page
 
-Available at: _NOT AVAILABLE YET!_
+Available at: https://charbytesdev.github.io/odin-landing-page/
 
 A landing-page website created by mainly using flexbox
 
