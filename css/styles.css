@@ -1,15 +1,36 @@
-/* Header*/
-.header {
+/* Add body styling*/
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add style for container containing Header and Hero */
+.top {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* Add header and Hero styling*/
+.header,
+.hero {
+  margin: 15px 250px 200px 250px;
+  justify-content: space-between;
+  display: flex;
   align-items: center;
 }
 
-/* Header */
+/* Header styling*/
+
+.header {
+  margin-bottom: 100px;
+}
 
 .logo {
   font-size: 24px;
+  font-weight: bold;
   color: #f9faf8;
 }
 
@@ -24,5 +45,50 @@
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
-  padding: 0px 5px;
+  margin: 0px 5px;
+}
+
+/* Hero styling*/
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero {
+  font-size: 18px;
+  color: #e8e7eb;
+  flex-wrap: wrap;
+}
+
+.hero .text {
+  width: 400px;
+}
+
+.hero .text h1 {
+  margin: 0px;
+}
+
+.hero .text p {
+  margin: 0px 0px 20px 0px;
+}
+
+/* Add Hero Signup button styling */
+
+.hero button {
+  padding: 8px 30px;
+  border-radius: 8px;
+  border-color: #3882f6;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: 800;
+}
+
+/* Add Hero image placeholder styling */
+
+.hero .image {
+  padding: 120px 200px;
+  border: 3px solid gray;
+  background-color: gray;
 }
