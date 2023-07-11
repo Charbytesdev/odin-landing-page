@@ -191,14 +191,15 @@ body {
 }
 
 .signup-section {
-  border-radius: 8px;
+  border-radius: 30px;
   display: flex;
   justify-content: center;
   gap: 100px;
   color: #e5e7eb;
-  background-color: #3882f6;
-  margin: 120px 180px;
-  padding: 80px 0px;
+  background-color: rgba(207, 93, 48, 0.805);
+  width: 800px;
+  margin: 120px auto;
+  padding: 50px 0px;
 }
 
 .signup-section .title {
@@ -215,7 +216,7 @@ body {
   border-radius: 8px;
   border-color: #e5e7eb;
   color: #e5e7eb;
-  background-color: #3882f6;
+  background-color: rgb(158, 71, 36);
   font-weight: 800;
   padding: 5px 25px;
 }
