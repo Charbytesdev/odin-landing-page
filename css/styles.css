@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", Arial, sans-serif;
-  background-image: url(../img/body_bg.jpg);
+  background-image: url(../img/body-bg.jpg);
   background-size: cover;
 }
 
@@ -13,8 +13,8 @@ body {
 /* Add header and Hero styling*/
 .header,
 .hero {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -24,18 +24,21 @@ body {
   position: fixed;
   top: 0;
   background-color: rgba(207, 93, 48, 0.705);
-  padding: 20px;
+  padding: 5px;
 }
 
 .header .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #af4a2e;
+  margin: 0px 0px 0px 40px;
+}
+
+.header img {
+  height: 40px;
+  width: 40px;
 }
 
 .header .links ul {
   display: flex;
-  margin: 0px 40px 0px 0px;
+  margin: 0px 50px 0px 0px;
   padding: 0px;
   gap: 20px;
   list-style: none;
@@ -46,6 +49,16 @@ body {
   color: #e5e7eb;
   text-decoration: none;
   margin: 0px 5px;
+}
+
+.header .left-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 23px;
+  color: #f9faf8;
+  font-weight: 800;
+  height: 40px;
 }
 
 /* Hero styling*/
