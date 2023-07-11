@@ -1,6 +1,8 @@
-# odin-landing-page
+# skate-town
 
-Available live at: https://charbytesdev.github.io/odin-landing-page/
+Landing page for Skate Town
+
+Available live at: https://charbytesdev.github.io/skate-town
 
 A landing-page website created by mainly using flexbox
 
