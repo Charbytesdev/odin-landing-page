@@ -73,6 +73,7 @@ body {
   font-size: 18px;
   color: #e8e7eb;
   flex-wrap: wrap;
+  overflow: hidden;
   padding: 100px;
   background-color: rgba(55, 40, 31, 0.7);
   border-radius: 50px;
@@ -94,10 +95,12 @@ body {
 /* Add Hero Signup button styling */
 
 .hero button {
-  padding: 8px 30px;
-  border-radius: 8px;
-  border-color: #3882f6;
-  background-color: #3882f6;
+  margin: 30px 80px;
+  padding: 15px 55px;
+  border-radius: 20px;
+  border-color: #e5e7eb;
+  background-color: rgba(207, 93, 48, 0.705);
+  font-size: 20px;
   color: #e5e7eb;
   font-weight: 800;
 }
@@ -105,7 +108,9 @@ body {
 /* Add Hero image placeholder styling */
 
 .hero .image {
-  padding: 120px 200px;
+  height: 400px;
+  width: auto;
+  margin-top: 15px;
   border: 3px solid gray;
   background-color: gray;
 }
@@ -214,4 +219,11 @@ body {
   color: #e5e7eb;
   padding: 30px 0px;
   background-color: #1f2937;
+}
+
+.credits,
+.credits a {
+  color: #e5e7eb;
+  font-size: 15px;
+  text-align: center;
 }
