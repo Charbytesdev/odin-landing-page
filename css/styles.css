@@ -9,24 +9,27 @@ body {
 }
 
 /* Add style for container containing Header and Hero */
-.top {
-  display: flex;
-  flex-direction: column;
-}
 
 /* Add header and Hero styling*/
 .header,
 .hero {
-  margin: 25px 250px 200px 250px;
   justify-content: space-between;
   display: flex;
   align-items: center;
 }
 
 /* Header styling*/
-
 .header {
   margin-bottom: 100px;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  position: fixed;
+  margin: 0px 20px;
+  top: 0;
+}
+
+.header .links {
 }
 
 .logo {
@@ -64,6 +67,7 @@ body {
   padding: 100px;
   background-color: rgba(31, 41, 55, 0.7);
   border-radius: 50px;
+  margin: 25px 250px 200px 250px;
 }
 
 .hero .text {
