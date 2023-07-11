@@ -20,32 +20,28 @@ body {
 
 /* Header styling*/
 .header {
-  margin-bottom: 100px;
-  display: flex;
-  flex: 1;
   width: 100%;
   position: fixed;
-  margin: 0px 20px;
   top: 0;
+  background-color: rgba(207, 93, 48, 0.705);
+  padding: 20px;
 }
 
-.header .links {
-}
-
-.logo {
+.header .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #f9faf8;
+  color: #af4a2e;
 }
 
-.links ul {
+.header .links ul {
   display: flex;
-  margin: 0px;
+  margin: 0px 40px 0px 0px;
   padding: 0px;
+  gap: 20px;
   list-style: none;
 }
 
-.links a {
+.header .links a {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
@@ -65,9 +61,9 @@ body {
   color: #e8e7eb;
   flex-wrap: wrap;
   padding: 100px;
-  background-color: rgba(31, 41, 55, 0.7);
+  background-color: rgba(55, 40, 31, 0.7);
   border-radius: 50px;
-  margin: 25px 250px 200px 250px;
+  margin: 100px 250px 200px 250px;
 }
 
 .hero .text {
