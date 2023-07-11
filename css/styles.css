@@ -178,6 +178,11 @@ body {
   margin: 120px 0px;
 }
 
+.quote .title {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
 .quote .text {
   font-size: 36px;
   font-style: italic;
@@ -241,7 +246,6 @@ body {
   text-align: center;
 }
 
-.quote .title {
-  font-size: 50px;
-  margin-bottom: 60px;
+.credits.bg {
+  margin-bottom: 10px;
 }
