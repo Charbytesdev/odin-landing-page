@@ -44,6 +44,11 @@ body {
   list-style: none;
 }
 
+.header .links a:hover {
+  text-shadow: 0 0 30px white;
+  color: rgb(77, 0, 128);
+}
+
 .header .links a {
   font-size: 18px;
   color: #e5e7eb;
