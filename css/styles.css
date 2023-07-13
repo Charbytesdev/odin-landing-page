@@ -178,7 +178,7 @@ body {
   text-shadow: 0 0 3px #000000, 0 0 5px #030303, 2px 2px 4px rgba(0, 0, 0, 0.5),
     -2px -2px 20px rgba(255, 255, 255, 0.5);
 
-  color: rgb(207, 93, 48);
+  color: rgb(160, 230, 95);
   width: 800px;
   margin: 120px 0px;
 }
@@ -246,7 +246,7 @@ body {
 
 .credits,
 .credits a {
-  color: #e5e7eb;
+  color: rgb(160, 230, 95);
   font-size: 15px;
   text-align: center;
 }
