@@ -14,5 +14,5 @@ A landing-page website created by mainly using flexbox
 
 ## Built With
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The web framework used
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Dependency Management
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Hyper Text Markup Language
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Cascading Style Sheets
