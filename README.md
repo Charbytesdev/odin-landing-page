@@ -1,9 +1,18 @@
-# skate-town
+## Skate Town
 
-Landing page for Skate Town
+Skate Town is a landing page made in HTML and CSS
+
+## Deployment
 
 Available live at: https://charbytesdev.github.io/skate-town
 
 A landing-page website created by mainly using flexbox
 
-# This is a draft README.md. The final version will be added in a few days.
+<div align="center">
+ <img src="./img/readme-preview.png" alt="Logo" width="80" height="80">
+</div>
+
+## Built With
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The web framework used
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Dependency Management
