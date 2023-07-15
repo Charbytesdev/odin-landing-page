@@ -9,7 +9,7 @@ Available live at: https://charbytesdev.github.io/skate-town
 A landing-page website created by mainly using flexbox
 
 <div align="center">
- <img src="./img/readme-preview.png" alt="Logo" width="80" height="80">
+ <img src="./img/readme-preview.png" alt="preview-screenshot" width="800">
 </div>
 
 ## Built With
