@@ -112,6 +112,11 @@ body {
   font-weight: 800;
 }
 
+/* Sign up button effects after hovering */
+.hero button:hover {
+  background-color: rgb(255, 187, 0);
+  text-shadow: 0 0 30px white;
+}
 /* Add Hero image placeholder styling */
 
 .hero .image {
